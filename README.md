@@ -1,5 +1,5 @@
 # AVEDS
-To create a package:
+To create a package (on master) :
 
 $ cd ~/catkin_ws/src
 
@@ -18,3 +18,7 @@ Lastly:
 $ cd ~/catkin_ws/src/package_name/src/your_code.py 
 
 $ chmod +x your_code.py
+
+Now to run the node in the package:
+
+$ roslaunch package_name launch_file_name.launch
