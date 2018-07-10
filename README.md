@@ -12,12 +12,9 @@ $ .~/catkin_ws/devel/setup.bash
 
 Now put your code in the src folder within the package folder
 Then put a .launch file in the launch folder
-Looks like this: 
-<launch>
-       <node pkg="package_name" type="your_code.py" name="package_name" output="screen" />
-</launch>
                  
 Lastly:
  
 $ cd ~/catkin_ws/src/package_name/src/your_code.py 
+
 $ chmod +x your_code.py
