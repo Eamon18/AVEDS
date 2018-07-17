@@ -12,6 +12,11 @@ $ .~/catkin_ws/devel/setup.bash
 
 Now put your code in the src folder within the package folder
 Then put a .launch file in the launch folder
+
+OR <--easier (no launch file necessary)
+$mkdir scripts
+and put your .py file in scripts
+
                  
 Lastly:
  
@@ -22,3 +27,5 @@ $ chmod +x your_code.py
 Now to run the node in the package:
 
 $ roslaunch package_name launch_file_name.launch
+OR
+$ rosrun package_name yourcode.py
