@@ -29,3 +29,6 @@ Now to run the node in the package:
 $ roslaunch package_name launch_file_name.launch
 OR
 $ rosrun package_name yourcode.py
+
+http://wiki.ros.org/ROS/Tutorials/CreatingPackage
+http://wiki.ros.org/ROS/Tutorials/WritingPublisherSubscriber%28python%29
